@@ -1,0 +1,103 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Arial, sans-serif;
+}
+body{
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background-color:#232f3b;
+}
+.calculator{
+    display:flex;
+    background-color:rgb(34, 69, 81);
+    width:270px;
+    height:510px;
+    margin-top:10px;
+    border-radius:10px;
+    border:2px solid black;
+    flex-direction:column;
+}
+.inputArea input{
+    height:120px;
+    width:267px;
+    text-align:right;
+    color:white;
+    font-weight:lighter;
+    background-color:#364444;
+    border:none;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    font-size:22px;
+    padding-right:3px;
+    margin-bottom:30px;
+    background-size:cover;
+}
+input[type="text"]{
+    outline:none;
+}
+.button{
+    display:flex;
+    justify-content:center;
+    padding:5px;
+}
+.number{
+    cursor:pointer;
+    background-color:black;
+    height:60px;
+    width:22.5%;
+    border-radius:50%;
+    margin-right:5px;
+    font-size:22px;
+    font-weight:bold;
+     color:white;
+     border:none;
+    box-shadow:4px 4px 10px rgba(228, 239, 241, 0.5);
+}
+.operator{
+    cursor:pointer;
+    background-color:black;
+    height:60px;
+    width:22.5%;
+    border-radius:50%;
+    margin-right:5px;
+    font-size:30px;
+    color:blue;
+    border:none;
+    font-weight:bolder;
+    box-shadow:4px 4px 10px rgba(228, 239, 241, 0.5);
+}
+.equal{
+    cursor:pointer;
+    background-color:rgb(21, 21, 177);
+    height:60px;
+    width:22.5%;
+    border-radius:50%;
+    margin-right:5px;
+    font-size:22px;
+    color:white; 
+    border:1px solid black;
+    box-shadow:4px 4px 10px rgba(228, 239, 241, 0.5);
+}
+.delete{
+    cursor:pointer;
+    background-color:black;
+    color:red;
+    border:none;
+    height:60px;
+    width:22.5%;
+    border-radius:50%;
+    margin-right:5px;
+    font-size:22px;
+    box-shadow:4px 4px 10px rgba(228, 239, 241, 0.5);
+}
+
+
+
+
+

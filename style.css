@@ -14,9 +14,9 @@ body{
 .calculator{
     display:flex;
     background-color:rgb(34, 69, 81);
-    width:290px;
+    width:300px;
     height:550px;
-    margin-top:90px;
+    margin-top:75px;
     border-radius:10px;
     border:2px solid black;
     flex-direction:column;
@@ -26,7 +26,7 @@ body{
 }
 .inputArea input{
     height:120px;
-    width:287px;
+    width:297px;
     text-align:right;
     color:white;
     font-weight:lighter;

@@ -14,19 +14,19 @@ body{
 .calculator{
     display:flex;
     background-color:rgb(34, 69, 81);
-    width:300px;
-    height:550px;
-    margin-top:75px;
+    width:290px;
+    height:560px;
+    margin-top:80px;
     border-radius:10px;
     border:2px solid black;
     flex-direction:column;
 }
 .calculator h1{
-    color:rgb(9, 3, 3);
+    color:black;
 }
 .inputArea input{
     height:120px;
-    width:297px;
+    width:287px;
     text-align:right;
     color:white;
     font-weight:bold;
@@ -52,11 +52,11 @@ input[type="text"]{
 .number{
     cursor:pointer;
     background-color:black;
-    height:60px;
+    height:63px;
     width:22.5%;
     border-radius:50%;
     margin-right:5px;
-    font-size:22px;
+    font-size:25px;
     font-weight:bold;
      color:white;
      border:none;
@@ -65,11 +65,11 @@ input[type="text"]{
 .operator{
     cursor:pointer;
     background-color:black;
-    height:60px;
+    height:63px;
     width:22.5%;
     border-radius:50%;
     margin-right:5px;
-    font-size:30px;
+    font-size:35px;
     color:blue;
     border:none;
     font-weight:bolder;
@@ -78,11 +78,11 @@ input[type="text"]{
 .equal{
     cursor:pointer;
     background-color:rgb(21, 21, 177);
-    height:60px;
+    height:63px;
     width:22.5%;
     border-radius:50%;
     margin-right:5px;
-    font-size:22px;
+    font-size:40px;
     color:white; 
     border:1px solid black;
     box-shadow:4px 4px 10px rgba(228, 239, 241, 0.5);
